@@ -1,0 +1,129 @@
+body {
+    font-family: 'Markazi Text', serif;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 50px;
+    background-color: rgb(234, 195, 184);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.first-p {
+    width: 75%;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+nav {
+    background-color: rgb(214, 120, 96);
+    height: 3rem;
+    border-radius: 20px;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.background {
+    background-image: url("background_photo.png");
+    background-repeat: no-repeat;
+    background-size: 50% 100%;  
+    background-position: right;
+    height: 275px;
+    border-radius: 30px;
+}
+
+section {
+    display: flex;
+    height: 250px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+article {
+    flex: 1;
+}
+
+.second-half {
+    margin-top: 20px;
+    height: fit-content;
+
+}
+
+footer {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer p {
+    text-align: right;
+}
+
+.column img {
+    height: 30%;
+    width: 40%;
+
+}
+
+.column {
+    margin: 15px;
+    background-color: rgb(221, 150, 132);
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+hr {
+    height:3px;
+    border-width:0;
+    background-color: grey;
+}
